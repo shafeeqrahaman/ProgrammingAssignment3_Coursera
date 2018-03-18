@@ -11,8 +11,7 @@ library(dplyr)
 library(magrittr)
 library(stringr)
 ```
-#Programming Assignment 3
-###Plot the 30-day mortality rates for heart attack 
+# Programming Assignment 3
 ```{r }
 #Load the csv file into R
 outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
