@@ -2,9 +2,7 @@
 title: "ProgrammingAssignment3 Coursera - Best Hospital"
 author: "Shafeeq Ur Rahaman"
 date: "3/10/2018"
-output:
-  word_document: default
-  html_document: default
+output: html_document
 ---
 
 ```{r setup, include=FALSE, message=FALSE}
