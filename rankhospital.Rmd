@@ -2,9 +2,7 @@
 title: "Programming Assignment 3 - Rank Hospital"
 author: "Shafeeq Ur Rahaman"
 date: "3/11/2018"
-output:
-  word_document: default
-  html_document: default
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +11,7 @@ library(dplyr)
 library(magrittr)
 library(stringr)
 ```
-#Ranking hospitals by outcome in a state
+# Ranking hospitals by outcome in a state
 ```{r warning=FALSE}
 rankhospital <- function(state, outcome, num="best") {
     #Read the dataset
@@ -84,6 +82,7 @@ rankhospital <- function(state, outcome, num="best") {
     
 }
 ```
+# Output
 ```{r warning=FALSE}
 rankhospital("NC", "heart attack", "worst")
 rankhospital("TX", "heart failure", 4)
