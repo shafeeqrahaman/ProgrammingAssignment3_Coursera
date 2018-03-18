@@ -12,6 +12,7 @@ library(magrittr)
 library(stringr)
 ```
 # Programming Assignment 3
+### Plot the 30-day mortality rates for heart attack 
 ```{r }
 #Load the csv file into R
 outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
@@ -26,7 +27,7 @@ outcome[,11] <- as.numeric(outcome[,11])
 hist(outcome[,11])
 ```
 
-###Finding the best hospital in a state
+### Finding the best hospital in a state
 ```{r warning=FALSE}
 best <- function(state,outcome)
 {
