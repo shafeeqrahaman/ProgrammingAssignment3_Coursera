@@ -63,6 +63,8 @@ best <- function(state,outcome)
     best_hospital
 }
 ```
+
+### Output Validation
 ```{r warning=FALSE}
 best("TX", "heart attack")
 best("TX", "heart failure")
